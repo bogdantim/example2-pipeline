@@ -1,9 +1,10 @@
 def execs =[:]
 for(int i=0;i<5;i++)
 {
+    def index=i
 	execs[i] ={
 		node {
-			echo "executing for $i"
+			echo "executing for $index"
 			sleep 10
 		}
 	}
